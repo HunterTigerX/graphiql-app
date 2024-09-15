@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/components/Header/Header.test.tsx.old",
+    "src/__tests__/Header.early.test.tsx.old",
+    "src/__tests__/pageLoginPage.test.tsx",
+    "src/reducers/reducers/restfullReducer.test.tsx",
+    "src/app/GRAPHQL/page.early.test11/GraphQL.early.test.tsx",
+    "src/app/layout.early.test11/RootLayout.early.test.tsx"
+  ],
+  "exclude": ["node_modules", ".next"]
+}

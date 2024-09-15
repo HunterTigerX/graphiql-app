@@ -1,0 +1,15 @@
+.container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.main {
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
